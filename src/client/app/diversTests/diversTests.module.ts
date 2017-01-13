@@ -4,10 +4,12 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { DiversTestsComponent } from './diversTests.component';
 import { DiversTestsRoutingModule } from './diversTests-routing.module';
+import { TestFormComponent } from './diversTestsform.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  imports: [CommonModule, DiversTestsRoutingModule, FormsModule],
-  declarations: [DiversTestsComponent],
+  imports: [CommonModule, DiversTestsRoutingModule, FormsModule, ReactiveFormsModule],
+  declarations: [DiversTestsComponent, TestFormComponent],
   exports: [DiversTestsComponent]
 })
 
