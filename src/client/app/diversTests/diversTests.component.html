@@ -1,0 +1,9 @@
+<hr>
+{{ data }}
+<div [innerText]="data"></div>
+
+<input type="text" #name>
+<button (click)="onClick($event, name.value)">test</button>
+
+<input type="text" [(ngModel)]="dataNgModelTest">
+{{ dataNgModelTest }}
