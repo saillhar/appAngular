@@ -7,6 +7,23 @@
 [![Dependency Status](https://david-dm.org/mgechev/angular-seed.svg)](https://david-dm.org/mgechev/angular-seed)
 [![devDependency Status](https://david-dm.org/mgechev/angular-seed/dev-status.svg)](https://david-dm.org/mgechev/angular-seed#info=devDependencies)
 
+<------------------ ReadMe <saillhar> : ------------------>
+	
+Version initiale du projet repris du projet angular-seed de <mgechev> (un grand merci pour le temps gagné)
+Pour l'installation des sources même principe :
+
+$ git clone --depth 1 https://github.com/saillhar/appAngular.git
+
+$ cd appAngular
+
+# install the project's dependencies
+$ npm install
+# fast install (via Yarn, https://yarnpkg.com)
+$ yarn install  # or yarn
+
+ <------------------ Fin ReadMe <saillhar> ------------------>
+
+
 Provides fast, reliable and extensible starter for the development of Angular projects.
 
 `angular-seed` provides the following features:
