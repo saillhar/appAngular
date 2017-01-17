@@ -9,3 +9,22 @@
 {{ dataNgModelTest }}
 <hr>
 <sd-dtform></sd-dtform>
+
+<hr>
+<p>
+Pour les notions d'héritage de données dans les components :
+Version basique :
+</p>
+<ul>
+	<li *ngFor="let gr of table">
+		{{ gr.description }}
+	</li>
+</ul>
+<p>
+Version avec un template html :
+</p>
+<ul>
+	<li *ngFor="let gre of table">
+		<enfant [children]="gre"></enfant>
+	</li>
+</ul>

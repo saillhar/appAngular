@@ -6,10 +6,11 @@ import { DiversTestsComponent } from './diversTests.component';
 import { DiversTestsRoutingModule } from './diversTests-routing.module';
 import { TestFormComponent } from './diversTestsform.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { EnfantComponent } from './enfant/enfant.component';
 
 @NgModule({
   imports: [CommonModule, DiversTestsRoutingModule, FormsModule, ReactiveFormsModule],
-  declarations: [DiversTestsComponent, TestFormComponent],
+  declarations: [DiversTestsComponent, TestFormComponent, EnfantComponent],
   exports: [DiversTestsComponent]
 })
 
